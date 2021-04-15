@@ -131,7 +131,7 @@ Write a function "giveMeRandom" which accepts a number n and returns an array co
 let arr = [];
 
 const giveMeRandom = function(n) {
-  for (int i = 0; i < n; i++) {
+  for (i = 0; i < n; i++) {
     let num = Math.floor((Math.random() * 10));
     arr.push(num);
   }
